@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-header {
+  @apply py-6 w-full border-b-2 border-[#fa8232] text-center font-medium text-2xl relative after:absolute after:h-1 after:w-full after:bottom-0 after:left-0 after:bg-[#fa8232];
+}
